@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodieExpress - Online Food Delivery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <img src="assests/Website.jpg" alt="not found" />
+
+    <!-- Header content on top of image -->
+    <header class="overlay-header">
+      <div class="left">
+        <h1 class="logo">FoodieExpress</h1>
+        <p class="tagline">Fast. Fresh. Delivered.</p>
+      </div>
+      <div class="right nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#cart">Cart</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <div class="hero-content">
+      <h1>Welcome to FoodieExpress</h1>
+      <p>Craving something delicious? Order now!</p>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="container"><br><br>
+      <br>
+      <h2>OUR MENU</h2><br><br><br>
+      <div class="cards" id="menu-items">
+        <!-- Items will be populated via JS -->
+      </div>
+    </div>
+  </section>
+
+<section class="section" id="menu">
+  <div class="container">
+    
+    <div class="cards" id="menu-items">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=300&q=80" alt="Cheese Burst Pizza" />
+        <h3>Cheese Burst Pizza</h3>
+        <p>₹199</p>
+        <button data-id="1">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=300&q=80" alt="Veggie Burger" />
+        <h3>Veggie Burger</h3>
+        <p>₹149</p>
+        <button data-id="2">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=300&q=80" alt="Chilli Garlic Noodles" />
+        <h3>Chilli Garlic Noodles</h3>
+        <p>₹129</p>
+        <button data-id="3">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=300&q=80" alt="Pasta Alfredo" />
+        <h3>Pasta Alfredo</h3>
+        <p>₹179</p>
+        <button data-id="5">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=300&q=80" alt="Grilled Sandwich" />
+        <h3>Grilled Sandwich</h3>
+        <p>₹119</p>
+        <button data-id="6">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=300&q=80" alt="Chocolate Milkshake" />
+        <h3>Chocolate Milkshake</h3>
+        <p>₹139</p>
+        <button data-id="7">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80" alt="Caesar Salad" />
+        <h3>Caesar Salad</h3>
+        <p>₹139</p>
+        <button data-id="9">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=300&q=80" alt="Mango Lassi" />
+        <h3>Mango Lassi</h3>
+        <p>₹89</p>
+        <button data-id="10">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+
+
+  <section class="section" id="cart">
+    <div class="container"><br><br><br>
+      <h2>Your Cart</h2><br><br>
+      <div id="cart-container">
+        <p>No items yet. Add something from the menu!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container"><br><br>
+      <h2>Contact Us</h2><br><br><br>
+      <p>Email: support@foodieexpress.com</p>
+      <p>Phone: +91-9876543210</p>
+      <p>Location: Mumbai, India</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container"><br>
+      <p>&copy; 2025 FoodieExpress. Crafted with ❤️ for food lovers.</p>
+    </div>
+  </footer>
+</body>
+</html>
