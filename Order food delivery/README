@@ -1,0 +1,33 @@
+# 🍔 FoodieExpress – Online Food Delivery Website
+
+A responsive, interactive food delivery website built with HTML, CSS, and JavaScript. Users can browse a visually rich food menu, view items dynamically, and manage a simple shopping cart experience — all in a single-page design.
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Tools**: VS Code, Git, GitHub
+- **Fonts**: Google Fonts – Poppins
+
+---
+
+## 🌟 Features
+
+- 🖼️ Hero section with background image and branding
+- 🧾 Interactive food menu with images and prices
+- 🛒 Add-to-Cart buttons for each food item
+- 🧺 Dynamic cart area that updates in real time
+- 📱 Fully responsive layout for all screen sizes
+- 📞 Contact section with email, phone, and address
+- 🔗 Clean navigation and semantic HTML structure
+
+---
+
+## 📷 Screenshots (Optional)
+_Add screenshots to show homepage, menu, and cart sections on desktop and mobile views._
+
+---
+
+## 🗂️ Folder Structure
+
